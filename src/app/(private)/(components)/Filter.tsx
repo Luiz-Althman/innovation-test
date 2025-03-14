@@ -2,7 +2,7 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useDashboard } from '@/context/DashboardContext';
-import { getFilteredCardsList, getCardsList } from '@/lib/services/Cards'; // Importe a função getCardsList
+import { getFilteredCardsList, getCardsList } from '@/lib/services/Cards';
 import { useForm } from 'react-hook-form';
 
 type FilterValues = {

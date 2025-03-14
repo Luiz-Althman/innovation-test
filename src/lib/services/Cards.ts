@@ -11,7 +11,7 @@ export const getCardsList = async (token: string) => {
         return response.data;
     } catch (err) {
         console.log('Erro ao buscar a lista dos produtos.');
-        throw err; // Lançando o erro para que possa ser tratado no componente
+        throw err;
     }
 };
 
